@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.cont-1 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.box {
+  border: 1px solid black;
+  margin: 1%;
+}
+.box1 {
+  width: 50vw;
+  height: 50vh;
+}
+.box2 {
+  width: 50vw;
+  height: 50vh;
+}
+.box3 {
+  flex: 1;
+  height: 50vh;
+  max-width: 100vw;
+}
+.on-right {
+  position: absolute;
+}
